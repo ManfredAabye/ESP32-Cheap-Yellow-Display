@@ -1,114 +1,110 @@
 # ESP32-Cheap-Yellow-Display
 
-There is an ESP32 with a built in 320 x 240 2.8" LCD display with a touch screen called the "ESP32-2432S028R", since this doesn't roll of the tongue, I propose it should be renamed the "Cheap Yellow Display" or CYD for short. This display is only about $15 delivered so I think it's really good value.
+Es gibt ein ESP32 mit einem integrierten 320 x 240 2,8" LCD-Display mit Touchscreen namens "ESP32-2432S028R". Da dieser Name nicht leicht von der Zunge geht, schlage ich vor, es in "Cheap Yellow Display" oder kurz CYD umzubenennen. Dieses Display kostet nur etwa 15 $ inklusive Lieferung, was ich für ein sehr gutes Preis-Leistungs-Verhältnis halte.
 
 ![image](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/assets/1562562/76c3d481-2523-4b6f-881c-2e29f9368cd0)
 
-## Features
+## Merkmale
 
-The CYD has the following features:
+Das CYD bietet die folgenden Funktionen:
 
-- ESP32 (With Wifi and Bluetooth)
-- 320 x 240 LCD Display (2.8")
-- Touch Screen (Resistive)
-- USB for powering and programming
-- SD Card Slot, LED and some additional pins broken out
+- ESP32 (mit Wi-Fi und Bluetooth)
+- 320 x 240 LCD-Display (2,8")
+- Touchscreen (resistiv)
+- USB zum Betrieb und Programmieren
+- SD-Kartensteckplatz, LED und einige zusätzliche Pins herausgeführt
 
-## Who is it good for?
+## Für wen ist es geeignet?
 
-I think it's useful for the following types of people:
+Ich denke, es ist nützlich für folgende Arten von Personen:
 
-- **People just getting started with working hardware** - as everything is already connected, there is no soldering or additional components required
-- **People who are familiar with working with hardware, but are lazy** - (like me) Sometimes you just want to build a project without having to assemble any hardware
-- **People who aren't really looking to learn anything, but just want to build some cool things** - More about this later.
+- **Menschen, die gerade erst anfangen, mit Hardware zu arbeiten** - da alles bereits verbunden ist, sind keine Lötarbeiten oder zusätzlichen Komponenten erforderlich
+- **Menschen, die mit Hardware vertraut sind, aber faul** - (wie ich) Manchmal möchte man einfach ein Projekt bauen, ohne Hardware zusammenbauen zu müssen
+- **Menschen, die nicht wirklich etwas lernen möchten, sondern einfach nur coole Dinge bauen wollen** - Mehr dazu später.
 
-## What is the purpose of this page?
+## Was ist der Zweck dieser Seite?
 
-So this is pretty nice hardware and a cheap price, but the software instructions/support around it is pretty poor. Just a single link to a zip file on a random website.
+Dies ist ziemlich gute Hardware zu einem günstigen Preis, aber die Softwareanleitungen/Unterstützung dazu sind ziemlich schlecht. Es gibt nur einen einzigen Link zu einer Zip-Datei auf einer zufälligen Website.
 
-A couple of years ago I released the [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity), which is an open source ESP32 board for controlling Matrix panels. I think the main benefit people get out of the work I did on the Trinty is not the hardware, but the documentation, example code and ready to go projects.
+Vor ein paar Jahren habe ich das [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity) veröffentlicht, ein Open-Source-ESP32-Board zur Steuerung von Matrix-Displays. Ich denke, der Hauptvorteil, den die Leute aus meiner Arbeit am Trinity ziehen, ist nicht die Hardware, sondern die Dokumentation, Beispielcode und fertig vorbereitete Projekte.
 
-I'm no longer creating hardware products, but I think it would be interesting if we could create the same kind of community around this display, where people can share examples and projects made for this display.
+Ich produziere keine Hardwareprodukte mehr, aber ich denke, es wäre interessant, wenn wir die gleiche Art von Community um dieses Display herum aufbauen könnten, in der Leute Beispiele und Projekte für dieses Display teilen können.
 
-## How do I know if a display is a CYD?
+## Wie erkenne ich, ob ein Display ein CYD ist?
 ![CYD decision tree](http://www.plantuml.com/plantuml/png/RP0nJyCm48Nt_8gZNIb3fge3LD2b2q92235UamDRE7PaNuhyxxda7DGgJBs-zxtSE-yJO-IXSzKD6-e8UeVMLyQs1DJrdA6br4JRims-4fW9LiS4bY6JS-47qBTWC052QvEayyCAvA-wS-8vi01F7mS8SVevOxJeUK9zu55QzzP_Nw-exxPmz8tHJzRRsJq4cdo3Pu98oIQsCd4O6WDIbyXF4LN-JNMsYG7UNXyXUAUTLHDfqVeMJWClUfSPrY_OOyPtO_ivUPcfnoMV3iyXJh4cj_MGJd8lEleQkvQKi9TYUT_DvbukXnraIfTQURMT39Nu8kcrXInIwQYO-gCyNwgm6al-ZneTNIRqjLokqS2UV3jqxXS0)
 
-## Where to buy?
+## Wo kaufen?
 
-Buy from wherever works out cheapest for you:
+Kaufen Sie dort, wo es am günstigsten ist:
 
 - [Aliexpress\*](https://s.click.aliexpress.com/e/_DkSpIjB)
 - [Aliexpress\*](https://s.click.aliexpress.com/e/_DkcmuCh)
 - [Aliexpress](https://www.aliexpress.com/item/1005004502250619.html)
-- [Makerfabs](https://www.makerfabs.com/sunton-esp32-2-8-inch-tft-with-touch.html) - Seems to come with a 16GB SD card. Makerfabs also stock my [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity) (NOTE there will be import due in the EU from makerfabs)
+- [Makerfabs](https://www.makerfabs.com/sunton-esp32-2-8-inch-tft-with-touch.html) - Anscheinend kommt es mit einer 16GB SD-Karte. Makerfabs führt auch mein [ESP32 Trinity](https://github.com/witnessmenow/ESP32-Trinity) (HINWEIS: Es fallen Importgebühren in der EU von makerfabs an)
 
-\* = Affiliate Link
+\* = Affiliate-Link
 
-## Getting Started With Your CYD
+## Erste Schritte mit Ihrem CYD
 
-For details on how to get started with your CYD, please check out the [Setup and Configuration](/SETUP.md) page
+Für Details, wie Sie mit Ihrem CYD loslegen, schauen Sie sich die Seite [Setup und Konfiguration](/SETUP.md) an.
 
-## Code Examples
+## Code-Beispiele
 
-### The Basics
+### Die Grundlagen
 
-A collection of examples demonstrating how to use the different features of the CYD, this is a good place to get started. [Check them out here.](/Examples/Basics)
+Eine Sammlung von Beispielen, die zeigen, wie man die verschiedenen Funktionen des CYD verwendet. Dies ist ein guter Ausgangspunkt. [Schauen Sie sie sich hier an.](/Examples/Basics)
 
-### Alternative Display Libraries
+### Alternative Display-Bibliotheken
 
-The basics examples are based on the TFT_eSPI display library, but the CYD also works with other display libraries too. Here is some example code if you prefer to use an alternative Arduino library. [Check them out here.](/Examples/AlternativeLibraries)
+Die grundlegenden Beispiele basieren auf der TFT_eSPI-Display-Bibliothek, aber das CYD funktioniert auch mit anderen Display-Bibliotheken. Hier ist ein Beispielcode, wenn Sie eine alternative Arduino-Bibliothek verwenden möchten. [Schauen Sie sie sich hier an.](/Examples/AlternativeLibraries)
 
 ### ESPHome
 
-Some examples for using the CYD in ESPHome. [Check them out here.](/Examples/ESPHome)
+Einige Beispiele für die Verwendung des CYD in ESPHome. [Schauen Sie sie sich hier an.](/Examples/ESPHome)
 
-## Additional Info and Links
+## Zusätzliche Informationen und Links
 
 ### Discord
 
-Join the CYD discussion on [my Discord channel](https://discord.gg/nnezpvq)
+Treten Sie der CYD-Diskussion auf [meinem Discord-Kanal](https://discord.gg/nnezpvq) bei.
 
-### 3DPrinting
+### 3D-Druck
 
-Some examples of 3D printed stands and cases. [Check them out here.](/3dModels)
+Einige Beispiele für 3D-gedruckte Ständer und Gehäuse. [Schauen Sie sie sich hier an.](/3dModels)
 
-### Pin Information
+### Pin-Informationen
 
-[This page](/PINS.md) contains information about what pins are used where, and what ones are free to use.
+[Diese Seite](/PINS.md) enthält Informationen darüber, welche Pins wo verwendet werden und welche frei verwendet werden können.
 
 ### Add-ons
 
-[This page](/ADDONS.md) contains information about additional hardware add-ons that can add functionality to your CYD
+[Diese Seite](/ADDONS.md) enthält Informationen über zusätzliche Hardware-Erweiterungen, die Ihrem CYD zusätzliche Funktionen verleihen können.
 
-### Troubleshooting
+### Fehlerbehebung
 
-[This page](/TROUBLESHOOTING.md) contains information about how to troubleshoot your CYD device
+[Diese Seite](/TROUBLESHOOTING.md) enthält Informationen darüber, wie Sie Ihr CYD-Gerät fehlerbeheben können.
 
-### Hardware Mods
+### Hardware-Modifikationen
 
-[This page](/Mods/README.md) contains information about some hardware mods that can be performed on the CYD to improve or change some of its functionality
+[Diese Seite](/Mods/README.md) enthält Informationen über einige Hardware-Modifikationen, die am CYD durchgeführt werden können, um dessen Funktionalität zu verbessern oder zu ändern.
 
-### Media and Video Mentions
+### Medien- und Video-Erwähnungen
 
-[This page](/MEDIA.md) lists any times the CYD project was mentioned somewhere!
+[Diese Seite](/MEDIA.md) listet alle Gelegenheiten auf, bei denen das CYD-Projekt irgendwo erwähnt wurde!
 
-## License Info
+## Lizenzinformationen
 
-This project is licensed as MIT as per the [license file](/LICENSE)
+Dieses Projekt ist unter der MIT-Lizenz gemäß der [Lizenzdatei](/LICENSE) lizenziert.
 
-The one exception to this is the [OriginalDocumentation](/OriginalDocumentation/) folder, that I do not have the right to license
+Die einzige Ausnahme ist der Ordner [OriginalDocumentation](/OriginalDocumentation/), den ich nicht lizenzieren darf.
 
-## Other Languages
+## Andere Sprachen
 
-Some members of the community have ported some of this information to other languages! 
+Einige Mitglieder der Community haben einige dieser Informationen in andere Sprachen portiert!
 
-Please note: I can't gaurantee the accuracy of the translation, how up to date they are or the content on them in general.
+Bitte beachten: Ich kann die Genauigkeit der Übersetzung, wie aktuell sie sind oder den Inhalt im Allgemeinen nicht garantieren.
 
-- [French / Française](https://github.com/usini/ESP32-Cheap-Yellow-Display-Documentation-FR)
-- [German / Deutsch](https://github.com/paelzer/ESP32-Cheap-Yellow-Display-Documentation-DE)
+- [Französisch / Française](https://github.com/usini/ESP32-Cheap-Yellow-Display-Documentation-FR)
+- [Deutsch / Deutsch](https://github.com/paelzer/ESP32-Cheap-Yellow-Display-Documentation-DE)
 
-If you would like to contribure a translation, please name the repo with the language name or code in the repo name and you can link it here.
-
-## Help Support what I do!
-
-[If you enjoy my work, please consider becoming a Github sponsor!](https://github.com/sponsors/witnessmenow/)
+Wenn Sie eine Übersetzung beitragen möchten, benennen Sie das Repository mit dem Sprachennamen oder -code im Repository-Namen und Sie können es hier verlinken.
