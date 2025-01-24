@@ -2,8 +2,6 @@
 
 Es gibt ein ESP32 mit einem integrierten 320 x 240 2,8" LCD-Display mit Touchscreen namens "ESP32-2432S028R". Da dieser Name nicht leicht von der Zunge geht, schlage ich vor, es in "Cheap Yellow Display" oder kurz CYD umzubenennen. Dieses Display kostet nur etwa 15 $ inklusive Lieferung, was ich für ein sehr gutes Preis-Leistungs-Verhältnis halte.
 
-![image](https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display/assets/1562562/76c3d481-2523-4b6f-881c-2e29f9368cd0)
-
 ## Merkmale
 
 Das CYD bietet die folgenden Funktionen:
